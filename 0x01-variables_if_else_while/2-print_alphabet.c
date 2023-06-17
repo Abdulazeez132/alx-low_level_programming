@@ -11,9 +11,13 @@
 
 int main(void)
 {
-	for (int i = 'A'; i <= 'Z'; i++)
+	int i;
+	char j;
+
+	for (i = 'A'; i <= 'Z'; i++)
 	{
-		char small_alpha = putchar(tolower(i));
+		j = tolower(i);
+		putchar(j);
 	}
 	return (0);
 }
