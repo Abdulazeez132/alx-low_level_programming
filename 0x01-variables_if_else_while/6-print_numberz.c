@@ -14,10 +14,9 @@ int main(void)
 
 	for (i = 0; i < 10; i++)
 	{
-		putchar(48 + n);
+		putchar((num % 10) + '0');
 	/**
-	 * numbers are encoded consecutively with 48 to 57
-	 * n is added to it because of putchar used
+	 * lsdkdldjdssk
 	 */
 	}
 
