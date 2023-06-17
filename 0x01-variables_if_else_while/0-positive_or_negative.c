@@ -2,7 +2,10 @@
 #include <time.h>
 #include <stdio.h>
 
-/* check if the number inputted is positive, negative or zero */
+/**
+ * check if the number inputted is positive, negative or zero 
+ * and tells if positive or negative or zero
+ */
 int main(void)
 {
 	/*the func tells if the number input is negative, positive or zero*/
@@ -19,11 +22,11 @@ int main(void)
 
 	else if (n == 0)
 		{
-			printf("%d is zero\n", n);
+		printf("%d is zero\n", n);
 		}
 	else
 		{
-			printf("%d is positive\n", n);
+		printf("%d is positive\n", n);
 		}
 
 	return (0);
