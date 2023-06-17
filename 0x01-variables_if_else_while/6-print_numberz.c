@@ -10,11 +10,15 @@
 
 int main(void)
 {
-	int n;
+	int i;
 
-	for (n = 0; n < 10; n++)
+	for (i = 0; i < 10; i++)
 	{
-		putchar(n);
+		putchar(48 + n);
+	/**
+	 * numbers are encoded consecutively with 48 to 57
+	 * n is added to it because of putchar used
+	 */
 	}
 
 	putchar('\n');
