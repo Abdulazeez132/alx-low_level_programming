@@ -5,7 +5,7 @@
 /**
  * main - Entry point
  *
- * Description: 'check if the number inputted is positive, negative or zero and tells if positive or negative or zero'
+ * Description: 'check if the number inputted is positive, negative or zero'
  *
  * Return: Always 0 (success)
  */
