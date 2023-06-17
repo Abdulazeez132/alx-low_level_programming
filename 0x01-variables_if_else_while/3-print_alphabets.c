@@ -11,19 +11,16 @@
 
 int main(void)
 {
-	int i;
-	char j;
+	char i;
 
-	for (i = 'A'; i <= 'Z'; i++)
+	for (i = 'a'; i <= 'z'; i++)
 	{
-		j = tolower(i);
-		putchar(j);
+		putchar(i);
 	}
 
 	for (i = 'A'; i <= 'Z'; i++)
 	{
-		j = i;
-		putchar(j);
+		putchar(i);
 	}
 
 	putchar('\n');
