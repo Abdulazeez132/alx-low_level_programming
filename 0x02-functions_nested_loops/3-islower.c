@@ -2,6 +2,8 @@
 
 /**
  * _islower - 'checks for lowercase character'
+ *
+ * int c - 'c is the letter to look for'
  */
 
 int _islower(int c)
