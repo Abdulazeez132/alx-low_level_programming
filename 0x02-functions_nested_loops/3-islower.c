@@ -3,7 +3,9 @@
 /**
  * _islower - 'checks for lowercase character'
  *
- * int c - 'c is the letter to look for'
+ * @c: 'c is the letter to look for'
+ *
+ * Return: 'returns 1 if c is found, else 0'
  */
 
 int _islower(int c)
