@@ -10,24 +10,11 @@
 
 int _abs(int n)
 {
-	int res;
-	if (n > 0)
+
+	if (n >= 0)
 	{
-		res = n;
-		_putchar(res);
+		return (n);
 	}
 
-	else if (n == 0)
-	{
-		res = 0;
-		_putchar(res);
-	}
-
-	else
-	{
-		res = n * -1;
-		_putchar(res);
-	}
-	
-	return (0);
+	return (n * -1);
 }
