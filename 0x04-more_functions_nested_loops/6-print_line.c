@@ -1,4 +1,4 @@
-#include "main.j"
+#include "main.h"
 
 /**
  * print_line - print line in a given number of times
