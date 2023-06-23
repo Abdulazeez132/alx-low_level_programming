@@ -1,13 +1,13 @@
 #include "main.h"
 
 /**
- * more_numbers - print numbers from 0 to 14 in 10times
+ * more_numbers - 'print numbers from 0 to 14 in 10times'
  */
 
 void more_numbers(void)
 {
-	int i, j;
-	j = 1;
+	int i;
+	int j = 1;
 
 	while (j < 11)
 	{
@@ -15,10 +15,8 @@ void more_numbers(void)
 		{
 			_putchar(i + '0');
 		}
-
 		_putchar('\n');
 		j++;
 	}
-
 	_putchar('\n');
 }
