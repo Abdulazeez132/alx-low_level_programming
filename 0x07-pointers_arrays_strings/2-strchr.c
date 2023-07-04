@@ -17,15 +17,15 @@ char *_strchr(char *s, char c)
 	while (1)
 	{
 		i = *s++;
+
 		if (i == c)
 		{
 			return (s - 1);
 		}
+
 		if (i == 0)
 		{
 			return (NULL);
 		}
 	}
 }
-
-
