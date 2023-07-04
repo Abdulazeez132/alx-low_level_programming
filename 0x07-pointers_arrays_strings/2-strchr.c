@@ -12,21 +12,27 @@
 
 char *_strchr(char *s, char c)
 {
-	int i;
+	int i = 0;
 	int char_index = 0;
 
-	for (i = 0; s[i] != '\0'; i++)
+	while (s[i] != '\0')
 	{
 		if (s[i] == c)
 		{
 			char_index = i;
 			break;
 		}
+
+		i++;
 	}
 
 	if (char_index)
+	{
 		return (&s[char_index]);
+	}
 
 	else
+	{
 		return (NULL);
+	}
 }
