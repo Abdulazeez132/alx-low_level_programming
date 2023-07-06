@@ -15,7 +15,7 @@ int checker(int n, int i)
 	else if (i == n)
 		return (-1);
 
-	return checker(n, i + 1);
+	return (checker(n, i + 1));
 }
 
 /**
@@ -26,9 +26,9 @@ int checker(int n, int i)
 
 int _sqrt_recursion(int n)
 {
-	if ( n <= 0)
+	if (n <= 0)
 		return (-1);
-	if ( n == 1)
+	if (n == 1)
 		return (1);
 	return (checker(n, 2));
 }
