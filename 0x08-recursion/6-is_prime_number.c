@@ -10,7 +10,7 @@
 int check(int n, int i)
 {
 	if (n % i == 0)
-		return(0);
+		return (0);
 
 	if (i * i > n)
 		return (1);
@@ -28,8 +28,8 @@ int is_prime_number(int n)
 {
 	if (n == 2 || n == 3)
 		return (1);
-	if (n <= 0)
-		return(0);
+	if (n <= 1)
+		return (0);
 
 	return (check(n, 3));
 }
