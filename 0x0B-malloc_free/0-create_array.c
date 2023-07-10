@@ -21,11 +21,7 @@ char *create_array(unsigned int size, char c)
 	if (ar == NULL);
 		return (NULL);
 
-	while (i < size)
-	{
-		ar[i] = c;
-		i++;
-	}
+	ar[0] = c;
 
 	return (ar);
 }
