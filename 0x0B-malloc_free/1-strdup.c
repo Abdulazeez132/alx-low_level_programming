@@ -26,8 +26,8 @@ char *_strdup(char *str)
 	if (newstr == NULL)
 		return (NULL);
 
-	while (str[y] != '\0')
-		newstr[y] = str[y];
+	while (str[j] != '\0')
+		newstr[j] = str[j];
 
 	return (newstr);
 }
