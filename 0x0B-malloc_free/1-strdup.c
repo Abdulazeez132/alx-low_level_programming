@@ -1,5 +1,4 @@
 #include <stdlib.h>
-#include <stdio.h>
 #include "main.h"
 
 /**
@@ -30,4 +29,5 @@ char *_strdup(char *str)
 	}
 
 	return (newstr);
+	free(newstr);
 }
