@@ -1,4 +1,5 @@
 #include <stdlib.h>
+#include <stdio.h>
 #include "main.h"
 
 /**
@@ -9,7 +10,7 @@
 
 char *_strdup(char *str)
 {
-	int i = 0, j = 0;
+	int i, j = 0;
 	char *newstr;
 
 	while (str[j] != '\0')
@@ -18,16 +19,13 @@ char *_strdup(char *str)
 	if (str == NULL)
 		return (NULL);
 
-	newstr = malloc((j-1) * sizeof(char));
-	while (str[i] != '\0')
+	newstr = malloc((j + 1) * sizeof(char));
+
+	for (i = 0; str[i]; i++)
 	{
 		newstr[i] = str[i];
 		i++;
 	}
-	str[i] = '\0';
-
-	if (newstr == NULL)
-		return (NULL);
 
 	return (newstr);
 }
