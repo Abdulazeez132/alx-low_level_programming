@@ -4,7 +4,8 @@
 /**
  * malloc_checked - allocate memory using malloc
  * @b: input to allocate for
- * Return: return
+ * Return: return p
+ * if malloc fails, terminates with normal exit value
  */
 
 void *malloc_checked(unsigned int b)
@@ -16,5 +17,4 @@ void *malloc_checked(unsigned int b)
 		exit(98);
 
 	return (p);
-	free(p);
 }
